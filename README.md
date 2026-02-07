@@ -3,7 +3,6 @@
 Texture extraction and modification tool for KarmaZoo. Extract, edit, and repack all 181 game textures with an easy-to-use GUI. Available for Windows and Linux.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Download
 
