@@ -1,4 +1,4 @@
-# KarmaZoo Texture Patcher
+# BigFilePatcher
 
 Texture extraction and modification tool for KarmaZoo. Extract, edit, and repack all 181 game textures with an easy-to-use GUI. Available for Windows and Linux.
 
@@ -9,8 +9,8 @@ Texture extraction and modification tool for KarmaZoo. Extract, edit, and repack
 
 Download the latest release for your operating system from the [Releases](../../releases) page:
 
-- **Windows**: `KarmaZoo-Texture-Patcher-Windows.zip`
-- **Linux**: `KarmaZoo-Texture-Patcher-Linux.zip`
+- **Windows**: `BigFilePatcher-Windows.zip`
+- **Linux**: `BigFilePatcher-Linux.zip`
 
 Extract the ZIP file and run the executable. No installation required!
 
