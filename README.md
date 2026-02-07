@@ -61,3 +61,5 @@ See [LICENSE](LICENSE) file
 ## Disclaimer
 
 Unofficial fan tool. Not affiliated with or endorsed by the KarmaZoo developers. For educational and personal use only.
+
+AI-assisted development was used in parts of this project.
