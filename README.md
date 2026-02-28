@@ -36,7 +36,7 @@ Extract the ZIP and run the executable. No installation required.
 ### Using Texture Packs
 
 1. Go to the **Texture Packs** tab
-2. Create an account or log in
+2. Create an account or log in (not needed to download texture packs)
 3. Browse available packs, click **View** on one you like
 4. Click **"Download & Install"**
 5. Back in the **Patcher** tab, select the installed pack from the **Image Source** dropdown
