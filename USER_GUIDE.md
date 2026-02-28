@@ -61,6 +61,7 @@ The log area at the bottom shows detailed progress and any warnings during extra
 ## Texture Packs Tab
 
 This tab lets you browse, download, and share community-made texture packs.
+
 **Important:** You need to register to be able to download texture packs. This is done to prevent abuse of the tool.
 
 ### Creating an Account
