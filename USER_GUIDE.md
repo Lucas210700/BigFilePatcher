@@ -62,8 +62,6 @@ The log area at the bottom shows detailed progress and any warnings during extra
 
 This tab lets you browse, download, and share community-made texture packs.
 
-**Important:** You need to register to be able to download texture packs. This is done to prevent abuse of the tool.
-
 ### Creating an Account
 
 Enter a **username** (3–32 characters, letters/numbers/underscores only) and a **password** (minimum 8 characters), then click **Register**. Your account will be created immediately.
