@@ -1,58 +1,64 @@
 # BigFilePatcher
 
-Texture extraction and modification tool for KarmaZoo. Extract, edit, and repack game textures with an easy-to-use GUI. Available for Windows and Linux.
+Texture extraction, modification, and sharing tool for KarmaZoo. Extract, edit, and repack game textures with an easy-to-use GUI — or browse and install community-made texture packs. Available for Windows and Linux.
 
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
+![Version](https://img.shields.io/badge/version-2.0-green)
+
+## Features
+
+- **Extract** all textures from `bigfile.bfdata`
+- **Edit** textures with any image editor and patch them back
+- **Texture Pack Sharing** — browse, download, and install community texture packs
+- **Upload** your own texture packs for others to use
+- **Variants** — publish alternative versions of existing packs
 
 ## Download
 
-Download the latest release for your operating system from the [Releases](../../releases) page:
+Download the latest release from the [Releases](../../releases) page:
 
 - **Windows**: `BigFilePatcher-Windows.zip`
 - **Linux**: `BigFilePatcher-Linux.zip`
 
-Extract the ZIP file and run the executable. No installation required!
+Extract the ZIP and run the executable. No installation required.
 
-## How to Use
+## Quick Start
 
-### 1. Get bigfile.bfdata
+### Patching Textures
 
 1. In Steam, right-click **KarmaZoo** → **Manage** → **Browse local files**
-2. Navigate to `resources/cookedData/`
-3. Copy `bigfile.bfdata` to the `input_bfdata` folder
+2. Copy `resources/cookedData/bigfile.bfdata` into the `input_bfdata` folder
+3. Launch BigFilePatcher and click **"Extract Images from bigfile.bfdata"**
+4. Edit images from `base_images` and save them to `edited_images` (same filename, PNG format)
+5. Click **"Patch bigfile.bfdata with Selected Images"**
+6. Copy the patched file from `output_bfdata` back to the game's `resources/cookedData/` folder
 
-### 2. Extract Textures
+### Using Texture Packs
 
-- Launch the application
-- Click **"Extract Images from bigfile.bfdata"**
-- Textures will be extracted to the `base_images` folder
+1. Go to the **Texture Packs** tab
+2. Create an account or log in
+3. Browse available packs, click **View** on one you like
+4. Click **"Download & Install"**
+5. Back in the **Patcher** tab, select the installed pack from the **Image Source** dropdown
+6. Click **"Patch bigfile.bfdata with Selected Images"**
+7. Copy the patched file from `output_bfdata` back to the game's `resources/cookedData/` folder
 
-### 3. Edit Textures
+## Important Notes
 
-- Edit any image from `base_images` with your favorite image editor (Photoshop, GIMP, etc.)
-- **Important**: File size must be ≤ original size
-- Save edited images to `edited_images` folder with the **same filename**
-
-### 4. Patch & Play
-
-- Click **"Patch bigfile.bfdata with Edited Images"**
-- Copy the patched file from `output_bfdata` to the game's `resources/cookedData/` folder
-- Launch KarmaZoo!
-
-## Important
-
-- **File Size**: Edited images cannot exceed original size
-- **Filenames**: Must match exactly
+- **File Size**: Edited images cannot exceed the original file size
+- **Filenames**: Must match exactly (e.g. `bigfile_bfdata-0000000001.png`)
 - **Backup**: Keep a backup of your original `bigfile.bfdata`
-- **PNG Format**: All textures are PNG files
+- **PNG Format**: All textures must be PNG files
 
 ## Troubleshooting
 
-**"bigfile.bfdata not found"** - Place the file in the `input_bfdata` folder
+**"bigfile.bfdata not found"** — Place the file in the `input_bfdata` folder
 
-**"File too large"** - Reduce image quality/compression
+**"File too large"** — Reduce image quality or compression level
 
-**Game won't load** - Restore original via Steam (Right-click game → Properties → Installed Files → Verify integrity)
+**Game won't load** — Restore original via Steam (Right-click game → Properties → Installed Files → Verify integrity)
+
+**Can't connect to texture pack server** — The server might be offline. Check your internet connection.
 
 ## License
 
